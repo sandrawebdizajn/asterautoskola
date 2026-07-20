@@ -10,6 +10,11 @@ Fajlovi su **dizajn referenca napravljena u HTML-u** — prototip koji pokazuje 
 
 Glavni fajl `Auto skola Aster.dc.html` je autorski napisan kao „Design Component" i oslanja se na `support.js` runtime. Za produkciju se markup i inline stilovi mogu prevesti u standardni HTML/CSS ili komponente — struktura i stilovi su čitljivi direktno iz fajla.
 
+
+## Kako se otvara / hostuje
+- **GitHub Pages / bilo koji hosting:** otvorite \`index.html\` (samostalni, self-contained fajl — sve slike i kod su ugrađeni, radi bez servera). Ovo je fajl koji GitHub Pages treba da servira kao početnu stranu.
+- \`Auto skola Aster.dc.html\` + \`support.js\` + \`assets/\` su izvorni (editabilni) fajlovi dizajna.
+
 ## Fidelity
 **High-fidelity (hifi)** — finalne boje, tipografija, razmaci i interakcije. UI treba rekreirati verno.
 
@@ -51,12 +56,12 @@ Glavni fajl `Auto skola Aster.dc.html` je autorski napisan kao „Design Compone
 
 ## Assets
 Sve slike su u `assets/` (izvor: korisnički upload / Pexels / AI-generisano):
-- `aster-hero.png` — vozilo „ASTER" + instruktor i kandidat (hero)
-- `aster-parking-aerial.jpg` — vozni park iz vazduha (O nama)
-- `aster-drive-city.png` — vozilo u vožnji ispred grada (galerija)
-- `aster-parking-night.jpg` — vozila noću (galerija)
-- `aster-classroom.jpg` — učionica (galerija)
-- `aster-driving-pov.jpg` — čas vožnje, POV (galerija)
+- `aster-hero-w.jpg` — vozilo „ASTER" + instruktor i kandidat (hero)
+- `aster-parking-aerial-w.jpg` — vozni park iz vazduha (O nama)
+- `aster-drive-city-w.jpg` — vozilo u vožnji ispred grada (galerija)
+- `aster-parking-night-w.jpg` — vozila noću (galerija)
+- `aster-classroom-w.jpg` — učionica (galerija)
+- `aster-driving-pov-w.jpg` — čas vožnje, POV (galerija)
 
 Fontovi: Google Fonts (Archivo, Figtree) preko `<link>`.
 Mapa: Google Maps embed iframe.
